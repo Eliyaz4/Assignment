@@ -1,3 +1,4 @@
+const prompt=require('prompt-sync')();
 let date=new Date();
 let x=1;
 let hrs=0,mins=0,secs=0;
