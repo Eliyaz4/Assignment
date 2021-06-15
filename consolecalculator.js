@@ -1,3 +1,4 @@
+const prompt=require('prompt-sync')();
 let x=prompt("enter x number:");
 let y=prompt("enter y number:");
 let oper=prompt("enter arthemetic operator:");
