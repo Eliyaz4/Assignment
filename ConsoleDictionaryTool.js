@@ -143,7 +143,8 @@ async function play()
 async function playgame(hint,syn,randomword)
 	{
 	console.log("new word");
-	let i=0;
+	let i=1;
+	console.log("hint:"+hint[0]);
 	let x=tryagain(randomword,hint,syn,i);
 	if(x==1)
 		return true;
